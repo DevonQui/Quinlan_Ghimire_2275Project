@@ -20,6 +20,8 @@ and then run the program on the command line using
 ./final words_alpha.txt
 
 WARNING: THE PROGRAM CAN TAKE ANYWHERE FROM 5-20 MINS TO RUN COMPLETELY
+
+Trie is currently running extremely quickly (~250 ms). We don't think this is reasonable but the program is working as intended and using other methods for getting runtime gives the same results.
 ___
 Bugs/Issues:
 Since the data structures have to insert and remove hundreds of thousands of nodes, your computer will slow down, possibly crash, and the program might not function properly if your computer can not handle the amount of memory usage.
